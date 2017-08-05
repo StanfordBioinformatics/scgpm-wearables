@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A99523161F2FC0070010E16A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99523151F2FC0070010E16A /* AppDelegate.swift */; };
+		A99523181F2FC0070010E16A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99523171F2FC0070010E16A /* FirstViewController.swift */; };
+		A995231A1F2FC0070010E16A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99523191F2FC0070010E16A /* SecondViewController.swift */; };
+		A995231D1F2FC0070010E16A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A995231B1F2FC0070010E16A /* Main.storyboard */; };
+		A995231F1F2FC0070010E16A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A995231E1F2FC0070010E16A /* Assets.xcassets */; };
+		A99523221F2FC0070010E16A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A99523201F2FC0070010E16A /* LaunchScreen.storyboard */; };
+		A995232D1F2FC0070010E16A /* SCGPM_WearablesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A995232C1F2FC0070010E16A /* SCGPM_WearablesTests.swift */; };
+		A99523381F2FC0070010E16A /* SCGPM_WearablesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99523371F2FC0070010E16A /* SCGPM_WearablesUITests.swift */; };
+		A99523461F2FE1990010E16A /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99523451F2FE1990010E16A /* DatePickerViewController.swift */; };
+		A9CFCB861F35034C0038E0C2 /* MoodPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CFCB851F35034C0038E0C2 /* MoodPickerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A99523291F2FC0070010E16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A995230A1F2FC0060010E16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A99523111F2FC0060010E16A;
+			remoteInfo = "SCGPM Wearables";
+		};
+		A99523341F2FC0070010E16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A995230A1F2FC0060010E16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A99523111F2FC0060010E16A;
+			remoteInfo = "SCGPM Wearables";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A99523121F2FC0060010E16A /* SCGPM Wearables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SCGPM Wearables.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99523151F2FC0070010E16A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A99523171F2FC0070010E16A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A99523191F2FC0070010E16A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A995231C1F2FC0070010E16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A995231E1F2FC0070010E16A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A99523211F2FC0070010E16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A99523231F2FC0070010E16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99523281F2FC0070010E16A /* SCGPM WearablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SCGPM WearablesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A995232C1F2FC0070010E16A /* SCGPM_WearablesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCGPM_WearablesTests.swift; sourceTree = "<group>"; };
+		A995232E1F2FC0070010E16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99523331F2FC0070010E16A /* SCGPM WearablesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SCGPM WearablesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99523371F2FC0070010E16A /* SCGPM_WearablesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCGPM_WearablesUITests.swift; sourceTree = "<group>"; };
+		A99523391F2FC0070010E16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A99523451F2FE1990010E16A /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		A9CFCB851F35034C0038E0C2 /* MoodPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodPickerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A995230F1F2FC0060010E16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99523251F2FC0070010E16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99523301F2FC0070010E16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A99523091F2FC0060010E16A = {
+			isa = PBXGroup;
+			children = (
+				A99523141F2FC0060010E16A /* SCGPM Wearables */,
+				A995232B1F2FC0070010E16A /* SCGPM WearablesTests */,
+				A99523361F2FC0070010E16A /* SCGPM WearablesUITests */,
+				A99523131F2FC0060010E16A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A99523131F2FC0060010E16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A99523121F2FC0060010E16A /* SCGPM Wearables.app */,
+				A99523281F2FC0070010E16A /* SCGPM WearablesTests.xctest */,
+				A99523331F2FC0070010E16A /* SCGPM WearablesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A99523141F2FC0060010E16A /* SCGPM Wearables */ = {
+			isa = PBXGroup;
+			children = (
+				A99523151F2FC0070010E16A /* AppDelegate.swift */,
+				A99523171F2FC0070010E16A /* FirstViewController.swift */,
+				A99523191F2FC0070010E16A /* SecondViewController.swift */,
+				A995231B1F2FC0070010E16A /* Main.storyboard */,
+				A995231E1F2FC0070010E16A /* Assets.xcassets */,
+				A99523201F2FC0070010E16A /* LaunchScreen.storyboard */,
+				A99523231F2FC0070010E16A /* Info.plist */,
+				A99523451F2FE1990010E16A /* DatePickerViewController.swift */,
+				A9CFCB851F35034C0038E0C2 /* MoodPickerViewController.swift */,
+			);
+			path = "SCGPM Wearables";
+			sourceTree = "<group>";
+		};
+		A995232B1F2FC0070010E16A /* SCGPM WearablesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A995232C1F2FC0070010E16A /* SCGPM_WearablesTests.swift */,
+				A995232E1F2FC0070010E16A /* Info.plist */,
+			);
+			path = "SCGPM WearablesTests";
+			sourceTree = "<group>";
+		};
+		A99523361F2FC0070010E16A /* SCGPM WearablesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A99523371F2FC0070010E16A /* SCGPM_WearablesUITests.swift */,
+				A99523391F2FC0070010E16A /* Info.plist */,
+			);
+			path = "SCGPM WearablesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A99523111F2FC0060010E16A /* SCGPM Wearables */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A995233C1F2FC0070010E16A /* Build configuration list for PBXNativeTarget "SCGPM Wearables" */;
+			buildPhases = (
+				A995230E1F2FC0060010E16A /* Sources */,
+				A995230F1F2FC0060010E16A /* Frameworks */,
+				A99523101F2FC0060010E16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SCGPM Wearables";
+			productName = "SCGPM Wearables";
+			productReference = A99523121F2FC0060010E16A /* SCGPM Wearables.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A99523271F2FC0070010E16A /* SCGPM WearablesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A995233F1F2FC0070010E16A /* Build configuration list for PBXNativeTarget "SCGPM WearablesTests" */;
+			buildPhases = (
+				A99523241F2FC0070010E16A /* Sources */,
+				A99523251F2FC0070010E16A /* Frameworks */,
+				A99523261F2FC0070010E16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A995232A1F2FC0070010E16A /* PBXTargetDependency */,
+			);
+			name = "SCGPM WearablesTests";
+			productName = "SCGPM WearablesTests";
+			productReference = A99523281F2FC0070010E16A /* SCGPM WearablesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A99523321F2FC0070010E16A /* SCGPM WearablesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99523421F2FC0070010E16A /* Build configuration list for PBXNativeTarget "SCGPM WearablesUITests" */;
+			buildPhases = (
+				A995232F1F2FC0070010E16A /* Sources */,
+				A99523301F2FC0070010E16A /* Frameworks */,
+				A99523311F2FC0070010E16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A99523351F2FC0070010E16A /* PBXTargetDependency */,
+			);
+			name = "SCGPM WearablesUITests";
+			productName = "SCGPM WearablesUITests";
+			productReference = A99523331F2FC0070010E16A /* SCGPM WearablesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A995230A1F2FC0060010E16A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SCGPM;
+				TargetAttributes = {
+					A99523111F2FC0060010E16A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A99DFK63C9;
+						ProvisioningStyle = Automatic;
+					};
+					A99523271F2FC0070010E16A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A99DFK63C9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A99523111F2FC0060010E16A;
+					};
+					A99523321F2FC0070010E16A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A99DFK63C9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A99523111F2FC0060010E16A;
+					};
+				};
+			};
+			buildConfigurationList = A995230D1F2FC0060010E16A /* Build configuration list for PBXProject "SCGPM Wearables" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A99523091F2FC0060010E16A;
+			productRefGroup = A99523131F2FC0060010E16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A99523111F2FC0060010E16A /* SCGPM Wearables */,
+				A99523271F2FC0070010E16A /* SCGPM WearablesTests */,
+				A99523321F2FC0070010E16A /* SCGPM WearablesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A99523101F2FC0060010E16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99523221F2FC0070010E16A /* LaunchScreen.storyboard in Resources */,
+				A995231F1F2FC0070010E16A /* Assets.xcassets in Resources */,
+				A995231D1F2FC0070010E16A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99523261F2FC0070010E16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99523311F2FC0070010E16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A995230E1F2FC0060010E16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99523461F2FE1990010E16A /* DatePickerViewController.swift in Sources */,
+				A995231A1F2FC0070010E16A /* SecondViewController.swift in Sources */,
+				A99523161F2FC0070010E16A /* AppDelegate.swift in Sources */,
+				A9CFCB861F35034C0038E0C2 /* MoodPickerViewController.swift in Sources */,
+				A99523181F2FC0070010E16A /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99523241F2FC0070010E16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A995232D1F2FC0070010E16A /* SCGPM_WearablesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A995232F1F2FC0070010E16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99523381F2FC0070010E16A /* SCGPM_WearablesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A995232A1F2FC0070010E16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A99523111F2FC0060010E16A /* SCGPM Wearables */;
+			targetProxy = A99523291F2FC0070010E16A /* PBXContainerItemProxy */;
+		};
+		A99523351F2FC0070010E16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A99523111F2FC0060010E16A /* SCGPM Wearables */;
+			targetProxy = A99523341F2FC0070010E16A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A995231B1F2FC0070010E16A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A995231C1F2FC0070010E16A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A99523201F2FC0070010E16A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A99523211F2FC0070010E16A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A995233A1F2FC0070010E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A995233B1F2FC0070010E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A995233D1F2FC0070010E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A99DFK63C9;
+				INFOPLIST_FILE = "SCGPM Wearables/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.scgpm.SCGPM-Wearables";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A995233E1F2FC0070010E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A99DFK63C9;
+				INFOPLIST_FILE = "SCGPM Wearables/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.scgpm.SCGPM-Wearables";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A99523401F2FC0070010E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A99DFK63C9;
+				INFOPLIST_FILE = "SCGPM WearablesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.scgpm.SCGPM-WearablesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCGPM Wearables.app/SCGPM Wearables";
+			};
+			name = Debug;
+		};
+		A99523411F2FC0070010E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A99DFK63C9;
+				INFOPLIST_FILE = "SCGPM WearablesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.scgpm.SCGPM-WearablesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCGPM Wearables.app/SCGPM Wearables";
+			};
+			name = Release;
+		};
+		A99523431F2FC0070010E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A99DFK63C9;
+				INFOPLIST_FILE = "SCGPM WearablesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.scgpm.SCGPM-WearablesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SCGPM Wearables";
+			};
+			name = Debug;
+		};
+		A99523441F2FC0070010E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A99DFK63C9;
+				INFOPLIST_FILE = "SCGPM WearablesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.scgpm.SCGPM-WearablesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SCGPM Wearables";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A995230D1F2FC0060010E16A /* Build configuration list for PBXProject "SCGPM Wearables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A995233A1F2FC0070010E16A /* Debug */,
+				A995233B1F2FC0070010E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A995233C1F2FC0070010E16A /* Build configuration list for PBXNativeTarget "SCGPM Wearables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A995233D1F2FC0070010E16A /* Debug */,
+				A995233E1F2FC0070010E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A995233F1F2FC0070010E16A /* Build configuration list for PBXNativeTarget "SCGPM WearablesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99523401F2FC0070010E16A /* Debug */,
+				A99523411F2FC0070010E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99523421F2FC0070010E16A /* Build configuration list for PBXNativeTarget "SCGPM WearablesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99523431F2FC0070010E16A /* Debug */,
+				A99523441F2FC0070010E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A995230A1F2FC0060010E16A /* Project object */;
+}
